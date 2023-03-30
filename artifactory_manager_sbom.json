@@ -1,0 +1,1202 @@
+{
+ "spdxVersion": "SPDX-2.3",
+ "dataLicense": "CC0-1.0",
+ "SPDXID": "SPDXRef-DOCUMENT",
+ "name": "artifactory manager.zip",
+ "documentNamespace": "https://anchore.com/syft/file/artifactory%20manager.zip-5d0862a8-91c2-460d-8646-3e792db16d27",
+ "creationInfo": {
+  "licenseListVersion": "3.20",
+  "creators": [
+   "Organization: Anchore, Inc",
+   "Tool: syft-0.75.0"
+  ],
+  "created": "2023-03-21T00:41:10Z"
+ },
+ "packages": [
+  {
+   "name": "certifi",
+   "SPDXID": "SPDXRef-Package-python-certifi-62cc6472eee2ba9e",
+   "versionInfo": "2022.12.7",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from installed python package manifest file: vermeer-develop/requirements.txt",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-certifi:python-certifi:2022.12.7:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-certifi:python_certifi:2022.12.7:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_certifi:python-certifi:2022.12.7:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_certifi:python_certifi:2022.12.7:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:certifi:python-certifi:2022.12.7:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:certifi:python_certifi:2022.12.7:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-certifi:certifi:2022.12.7:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_certifi:certifi:2022.12.7:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python-certifi:2022.12.7:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python_certifi:2022.12.7:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:certifi:certifi:2022.12.7:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:certifi:2022.12.7:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/certifi@2022.12.7"
+    }
+   ]
+  },
+  {
+   "name": "charset-normalizer",
+   "SPDXID": "SPDXRef-Package-python-charset-normalizer-3e5eae212a6516f9",
+   "versionInfo": "2.1.1",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from installed python package manifest file: vermeer-develop/requirements.txt",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-charset-normalizer:python-charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-charset-normalizer:python_charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_charset_normalizer:python-charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_charset_normalizer:python_charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:charset-normalizer:python-charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:charset-normalizer:python_charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:charset_normalizer:python-charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:charset_normalizer:python_charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-charset-normalizer:charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-charset-normalizer:charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_charset_normalizer:charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_charset_normalizer:charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-charset:python-charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-charset:python_charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_charset:python-charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_charset:python_charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:charset-normalizer:charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:charset-normalizer:charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:charset_normalizer:charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:charset_normalizer:charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:charset:python-charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:charset:python_charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-charset:charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-charset:charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_charset:charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_charset:charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python-charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python_charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:charset:charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:charset:charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:charset-normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:charset_normalizer:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/charset-normalizer@2.1.1"
+    }
+   ]
+  },
+  {
+   "name": "click",
+   "SPDXID": "SPDXRef-Package-python-click-f7a441626989425e",
+   "versionInfo": "8.1.3",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from installed python package manifest file: vermeer-develop/requirements.txt",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-click:python-click:8.1.3:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-click:python_click:8.1.3:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_click:python-click:8.1.3:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_click:python_click:8.1.3:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python-click:8.1.3:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python_click:8.1.3:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:click:python-click:8.1.3:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:click:python_click:8.1.3:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-click:click:8.1.3:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_click:click:8.1.3:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:click:8.1.3:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:click:click:8.1.3:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/click@8.1.3"
+    }
+   ]
+  },
+  {
+   "name": "flask",
+   "SPDXID": "SPDXRef-Package-python-flask-e2660183162b9718",
+   "versionInfo": "2.2.2",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from installed python package manifest file: vermeer-develop/requirements.txt",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-flask:python-flask:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-flask:python_flask:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_flask:python-flask:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_flask:python_flask:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python-flask:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python_flask:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:flask:python-flask:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:flask:python_flask:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-flask:flask:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_flask:flask:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:flask:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:flask:flask:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/flask@2.2.2"
+    }
+   ]
+  },
+  {
+   "name": "greenlet",
+   "SPDXID": "SPDXRef-Package-python-greenlet-265656d915981bb0",
+   "versionInfo": "2.0.1",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from installed python package manifest file: vermeer-develop/requirements.txt",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-greenlet:python-greenlet:2.0.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-greenlet:python_greenlet:2.0.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_greenlet:python-greenlet:2.0.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_greenlet:python_greenlet:2.0.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:greenlet:python-greenlet:2.0.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:greenlet:python_greenlet:2.0.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-greenlet:greenlet:2.0.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_greenlet:greenlet:2.0.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python-greenlet:2.0.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python_greenlet:2.0.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:greenlet:greenlet:2.0.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:greenlet:2.0.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/greenlet@2.0.1"
+    }
+   ]
+  },
+  {
+   "name": "idna",
+   "SPDXID": "SPDXRef-Package-python-idna-8be23b85de398480",
+   "versionInfo": "3.4",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from installed python package manifest file: vermeer-develop/requirements.txt",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-idna:python-idna:3.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-idna:python_idna:3.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_idna:python-idna:3.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_idna:python_idna:3.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python-idna:3.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python_idna:3.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:idna:python-idna:3.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:idna:python_idna:3.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-idna:idna:3.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_idna:idna:3.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:idna:3.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:idna:idna:3.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/idna@3.4"
+    }
+   ]
+  },
+  {
+   "name": "itsdangerous",
+   "SPDXID": "SPDXRef-Package-python-itsdangerous-95a9ba1d17081ed7",
+   "versionInfo": "2.1.2",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from installed python package manifest file: vermeer-develop/requirements.txt",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-itsdangerous:python-itsdangerous:2.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-itsdangerous:python_itsdangerous:2.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_itsdangerous:python-itsdangerous:2.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_itsdangerous:python_itsdangerous:2.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:itsdangerous:python-itsdangerous:2.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:itsdangerous:python_itsdangerous:2.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-itsdangerous:itsdangerous:2.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_itsdangerous:itsdangerous:2.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python-itsdangerous:2.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python_itsdangerous:2.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:itsdangerous:itsdangerous:2.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:itsdangerous:2.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/itsdangerous@2.1.2"
+    }
+   ]
+  },
+  {
+   "name": "jinja2",
+   "SPDXID": "SPDXRef-Package-python-jinja2-e2ddb56eb1cb4fad",
+   "versionInfo": "3.1.2",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from installed python package manifest file: vermeer-develop/requirements.txt",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-jinja2:python-jinja2:3.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-jinja2:python_jinja2:3.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_jinja2:python-jinja2:3.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_jinja2:python_jinja2:3.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:jinja2:python-jinja2:3.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:jinja2:python_jinja2:3.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-jinja2:jinja2:3.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python-jinja2:3.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python_jinja2:3.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_jinja2:jinja2:3.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:jinja2:jinja2:3.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:jinja2:3.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/jinja2@3.1.2"
+    }
+   ]
+  },
+  {
+   "name": "markupsafe",
+   "SPDXID": "SPDXRef-Package-python-markupsafe-5c8c5e8894990654",
+   "versionInfo": "2.1.1",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from installed python package manifest file: vermeer-develop/requirements.txt",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-markupsafe:python-markupsafe:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-markupsafe:python_markupsafe:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_markupsafe:python-markupsafe:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_markupsafe:python_markupsafe:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:markupsafe:python-markupsafe:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:markupsafe:python_markupsafe:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-markupsafe:markupsafe:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_markupsafe:markupsafe:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python-markupsafe:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python_markupsafe:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:markupsafe:markupsafe:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:markupsafe:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/markupsafe@2.1.1"
+    }
+   ]
+  },
+  {
+   "name": "pg8000",
+   "SPDXID": "SPDXRef-Package-python-pg8000-71ea30f2d9ecd933",
+   "versionInfo": "1.29.4",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from installed python package manifest file: vermeer-develop/requirements.txt",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-pg8000:python-pg8000:1.29.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-pg8000:python_pg8000:1.29.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_pg8000:python-pg8000:1.29.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_pg8000:python_pg8000:1.29.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:pg8000:python-pg8000:1.29.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:pg8000:python_pg8000:1.29.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-pg8000:pg8000:1.29.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python-pg8000:1.29.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python_pg8000:1.29.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_pg8000:pg8000:1.29.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:pg8000:pg8000:1.29.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:pg8000:1.29.4:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/pg8000@1.29.4"
+    }
+   ]
+  },
+  {
+   "name": "requests",
+   "SPDXID": "SPDXRef-Package-python-requests-e3f0bae61e8951f5",
+   "versionInfo": "2.28.1",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from installed python package manifest file: vermeer-develop/requirements.txt",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-requests:python-requests:2.28.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-requests:python_requests:2.28.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_requests:python-requests:2.28.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_requests:python_requests:2.28.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-requests:requests:2.28.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_requests:requests:2.28.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:requests:python-requests:2.28.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:requests:python_requests:2.28.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python-requests:2.28.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python_requests:2.28.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:requests:requests:2.28.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:requests:2.28.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/requests@2.28.1"
+    }
+   ]
+  },
+  {
+   "name": "sqlalchemy",
+   "SPDXID": "SPDXRef-Package-python-sqlalchemy-e6a4dc6f6f58a6f6",
+   "versionInfo": "1.4.45",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from installed python package manifest file: vermeer-develop/requirements.txt",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-sqlalchemy:python-sqlalchemy:1.4.45:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-sqlalchemy:python_sqlalchemy:1.4.45:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_sqlalchemy:python-sqlalchemy:1.4.45:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_sqlalchemy:python_sqlalchemy:1.4.45:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-sqlalchemy:sqlalchemy:1.4.45:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_sqlalchemy:sqlalchemy:1.4.45:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:sqlalchemy:python-sqlalchemy:1.4.45:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:sqlalchemy:python_sqlalchemy:1.4.45:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python-sqlalchemy:1.4.45:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python_sqlalchemy:1.4.45:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:sqlalchemy:sqlalchemy:1.4.45:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:sqlalchemy:1.4.45:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/sqlalchemy@1.4.45"
+    }
+   ]
+  },
+  {
+   "name": "urllib3",
+   "SPDXID": "SPDXRef-Package-python-urllib3-a08a4f87710c5cb4",
+   "versionInfo": "1.26.13",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from installed python package manifest file: vermeer-develop/requirements.txt",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-urllib3:python-urllib3:1.26.13:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-urllib3:python_urllib3:1.26.13:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_urllib3:python-urllib3:1.26.13:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_urllib3:python_urllib3:1.26.13:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-urllib3:urllib3:1.26.13:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_urllib3:urllib3:1.26.13:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:urllib3:python-urllib3:1.26.13:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:urllib3:python_urllib3:1.26.13:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python-urllib3:1.26.13:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python_urllib3:1.26.13:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:urllib3:urllib3:1.26.13:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:urllib3:1.26.13:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/urllib3@1.26.13"
+    }
+   ]
+  },
+  {
+   "name": "werkzeug",
+   "SPDXID": "SPDXRef-Package-python-werkzeug-ccc754d7adf58c40",
+   "versionInfo": "2.2.2",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from installed python package manifest file: vermeer-develop/requirements.txt",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-werkzeug:python-werkzeug:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-werkzeug:python_werkzeug:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_werkzeug:python-werkzeug:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_werkzeug:python_werkzeug:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python-werkzeug:werkzeug:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python_werkzeug:werkzeug:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:werkzeug:python-werkzeug:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:werkzeug:python_werkzeug:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python-werkzeug:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:python_werkzeug:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:werkzeug:werkzeug:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:python:werkzeug:2.2.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/werkzeug@2.2.2"
+    }
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "spdxElementId": "SPDXRef-DOCUMENT",
+   "relatedSpdxElement": "SPDXRef-DOCUMENT",
+   "relationshipType": "DESCRIBES"
+  }
+ ]
+}
